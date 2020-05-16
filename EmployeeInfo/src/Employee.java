@@ -14,7 +14,7 @@ public class Employee extends Person {
 		Employee emp = new Employee("Brian", 46, "2019-09-09", 10000.0);
 		emp.setName("Emile");
 		System.out.println(emp.getName() +" earns "+emp.salary);
-		System.out.println("The Employee was hired on "+emp.getHiredate());
+		System.out.println("The Employee was hired on "+hireDate);
 	}
 	
 	public String  getHiredate(){
