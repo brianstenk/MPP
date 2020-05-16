@@ -16,5 +16,9 @@ public class Employee extends Person {
 		System.out.println(emp.getName() +" earns "+emp.salary);
 		System.out.println("The Employee was hired on "+emp.getHiredate());
 	}
+	
+	public static String  getHiredate(){
+		return hireDate;
+	}
 	 
 }
