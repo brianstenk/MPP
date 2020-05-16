@@ -1,6 +1,6 @@
 //import java.util.*;
 public class Employee extends Person {
-	 private String hireDate;
+	 private static String hireDate;
 	 private double salary;
 	 
 	 public Employee(String name, int age, String hireDate, double salary) {
@@ -17,7 +17,7 @@ public class Employee extends Person {
 		System.out.println("The Employee was hired on "+emp.getHiredate());
 	}
 	
-	public static String  getHiredate(){
+	public String  getHiredate(){
 		return hireDate;
 	}
 	 
