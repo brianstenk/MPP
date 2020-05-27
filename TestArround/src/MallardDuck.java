@@ -5,7 +5,7 @@ public class MallardDuck extends Duck {
 
 	
 	public MallardDuck() {
-		super();
+		//super();
 		// TODO Auto-generated constructor stub
 		setQb(new Quack());
 		setFb(new FlyWithWings());
